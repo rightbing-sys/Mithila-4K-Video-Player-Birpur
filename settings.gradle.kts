@@ -14,3 +14,4 @@ dependencyResolutionManagement {
 }
 rootProject.name = "Mithila4KVideoPlayer"
 include(":app")
+project(":app").projectDir = file("app/app")
