@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "com.mithila.videoplayer"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.mithila.videoplayer"
