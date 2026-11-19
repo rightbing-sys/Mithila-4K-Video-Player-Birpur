@@ -16,7 +16,9 @@ jobs:
         with:
           gradle-version: '8.9'
       - run: gradle assembleDebug
+      - run: find . -name "*.apk"
       - uses: actions/upload-artifact@v4
         with:
           name: Mithila-4K-Video-Player-Birpur
-          path: '**/*.apk'
+          path: build/outputs/apk/
+          if-no-files-found: warn
