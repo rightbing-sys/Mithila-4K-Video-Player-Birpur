@@ -20,5 +20,5 @@ jobs:
       - uses: actions/upload-artifact@v4
         with:
           name: Mithila-4K-Video-Player-Birpur
-          path: build/outputs/apk/
+          path: app/build/outputs/apk/
           if-no-files-found: warn
